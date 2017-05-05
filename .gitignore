@@ -1,0 +1,8 @@
+/MANIFEST
+/dist
+/build
+/envr.egg-info
+.coverage
+/.tox
+/htmlcov/
+*,cover
