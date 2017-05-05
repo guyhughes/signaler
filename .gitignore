@@ -1,7 +1,7 @@
 /MANIFEST
 /dist
 /build
-/envr.egg-info
+/*.egg-info
 .coverage
 /.tox
 /htmlcov/
