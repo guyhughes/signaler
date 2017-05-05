@@ -10,7 +10,7 @@ setup(
     author='ypcrts',
     author_email='ypcrts',
     url='https://github.com/ypcrts/signaler',
-    keywords=['signal','sigint'],
+    keywords=['signal', 'sigint'],
     license='MPL 2.0',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

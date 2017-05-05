@@ -29,4 +29,3 @@ class TestSignaler(unittest.TestCase):
             Signaler(0)
 
         self.assertIn('must be a sequence', str(context.exception))
-

@@ -1,1 +1,1 @@
-from .core import Signaler
+from .core import Signaler  # NOQA
