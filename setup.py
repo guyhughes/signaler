@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="signaler",
     packages=["signaler"],
-    version="0.0.1",
+    version="0.0.2",
     description=("Simple signal handling"),
     install_requires=["six"],
     author="ypcrts",
