@@ -3,8 +3,10 @@ import signal
 
 class Signaler:
     def __init__(self, signals_to_handle=[signal.SIGINT, signal.SIGUSR1]):
-        if not (hasattr(signals_to_handle, '__iter__')
-                and hasattr(signals_to_handle, '__len__')):
+        if not (
+            hasattr(signals_to_handle, "__iter__")
+            and hasattr(signals_to_handle, "__len__")
+        ):
             raise ValueError("arg must be a sequence")
 
         self._to_handle = signals_to_handle

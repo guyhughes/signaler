@@ -8,7 +8,6 @@ from signaler import Signaler
 
 
 class TestSignalerDefaultConstructor(unittest.TestCase):
-
     def setUp(self):
         self.s = Signaler()
         assert self.s, "0 arg constructor failed"
@@ -23,9 +22,8 @@ class TestSignalerDefaultConstructor(unittest.TestCase):
 
 
 class TestSignaler(unittest.TestCase):
-
     def test_constructor_invalid(self):
         with self.assertRaises(ValueError) as context:
             Signaler(0)
 
-        self.assertIn('must be a sequence', str(context.exception))
+        self.assertIn("must be a sequence", str(context.exception))
